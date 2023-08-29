@@ -15,6 +15,13 @@ const searchButton = document.getElementById("search-btn");
         document.getElementById('info').classList.add('hidden');
         return;
     }
+    else if(city.length === 0){
+        invalidMessage.classList.remove('hidden');
+        invalidMessage.classList.add('block')
+        document.getElementById('info').classList.remove('block');
+        document.getElementById('info').classList.add('hidden');
+        return;
+    }
     else{
     document.getElementById('info').classList.remove('hidden');
     document.getElementById('info').classList.add('block');
