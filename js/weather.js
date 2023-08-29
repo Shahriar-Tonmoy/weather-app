@@ -56,7 +56,7 @@ const searchButton = document.getElementById("search-btn");
     else if(weatherType === 'Mist'){
         document.getElementById('weather-image').src = './../images/mist.png'
     }
-    else if(weatherType === 'Rain'){
+    else if(weatherType === 'Rain' || weatherType === 'Thunderstorm'){
         document.getElementById('weather-image').src = './../images/rain.png'
     }
     else if(weatherType === 'Snow'){
