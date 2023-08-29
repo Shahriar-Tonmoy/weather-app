@@ -38,22 +38,22 @@ const searchButton = document.getElementById("search-btn");
     document.getElementById('weather-type').innerText = weatherType;
 
     if(weatherType === 'Clear'){
-        document.getElementById('weather-image').src = '../images/clear.png'
+        document.getElementById('weather-image').src = './../images/clear.png'
     }
     else if(weatherType === 'Clouds' || weatherType === 'Haze'){
-        document.getElementById('weather-image').src = '../images/clouds.png'
+        document.getElementById('weather-image').src = './../images/clouds.png'
     }
     else if(weatherType === 'Drizzle'){
-        document.getElementById('weather-image').src = '../images/drizzle.png'
+        document.getElementById('weather-image').src = './../images/drizzle.png'
     }
     else if(weatherType === 'Mist'){
-        document.getElementById('weather-image').src = '../images/mist.png'
+        document.getElementById('weather-image').src = './../images/mist.png'
     }
     else if(weatherType === 'Rain'){
-        document.getElementById('weather-image').src = '../images/rain.png'
+        document.getElementById('weather-image').src = './../images/rain.png'
     }
     else if(weatherType === 'Snow'){
-        document.getElementById('weather-image').src = '../images/snow.png'
+        document.getElementById('weather-image').src = './../images/snow.png'
     }
     
 
