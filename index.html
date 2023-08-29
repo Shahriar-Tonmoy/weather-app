@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- tailwind and Daisy UI setup -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.3/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/fee40be8a2.js" crossorigin="anonymous"></script>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,700&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <style>
+        .nunito {
+            font-family: 'Nunito Sans', sans-serif;
+        }
+    </style>
+
+    <title>Blue-point</title>
+</head>
+
+<body class="nunito bg-gradient-to-br from-blue-500 to-green-500">
+    <div class="lg:h-screen flex flex-col justify-center items-center  w-full gap-10 pt-10 lg:pt-0">
+        <h1 class="text-3xl lg:text-5xl text-white text-center "><span class="hidden lg:block">Welcome To</span><span class="text-5xl lg:text-6xl text-blue-100 font-bold">Blue Weather</span>
+        </h1>
+        <div class="flex flex-col justify-center items-center w-full gap-3">
+            <div class="flex items-center justify-center gap-6 w-full mb-6">
+                <input type="text"
+                    class="rounded-full w-1/5 h-12 focus:outline-none pl-6 caret-blue-600 text-lg text-blue-400"
+                    placeholder="Search your city">
+                <button><img src="images/search.png" alt="" srcset="" class="w-2/3 mx-auto"></button>
+            </div>
+        </div>
+        <div class="">
+            <div class="flex flex-col justify-center items-center mb-20">
+                <img src="images/clouds.png" alt="" class="text-center mx-auto">
+                <h1 class="text-blue-100 text-9xl font-extrabold">1°c</h1>
+                <p class="text-white text-5xl font-bold">Dhaka</p>
+            </div>
+            <div class="flex gap-20">
+                <div class="flex gap-4">
+                    <img src="images/humidity.png" alt="" srcset="">
+                    <div>
+                        <p class="text-white text-5xl font-semibold">90%</p>
+                        <p class="text-white text-2xl font-semibold">Humidity</p>                         
+                    </div>
+                </div>
+                <div class="flex gap-4">
+                    <img src="images/wind.png" alt="" srcset="">
+                    <div>
+                        <p class="text-white text-5xl font-semibold">2.68 km/h</p>
+                        <p class="text-white text-2xl font-semibold">Wind speed</p>                         
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
