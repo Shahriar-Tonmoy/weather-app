@@ -1,4 +1,4 @@
-const inputField = document.getElementById("city");
+const inputField = document.getElementById("input");
 const searchButton = document.getElementById("search-btn");
 
 
